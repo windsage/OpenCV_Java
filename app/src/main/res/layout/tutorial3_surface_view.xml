@@ -1,12 +1,19 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
     <com.magicing.opencv_java.Tutorial3View
+        android:id="@+id/tutorial3_activity_java_surface_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone"
-        android:id="@+id/tutorial3_activity_java_surface_view" />
+        android:visibility="gone"/>
 
-</LinearLayout>
+
+    <Button
+        android:id="@+id/record"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Record"/>
+</RelativeLayout>

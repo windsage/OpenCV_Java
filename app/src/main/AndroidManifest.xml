@@ -9,8 +9,6 @@
         android:resizeable="true"
         android:smallScreens="true"/>
 
-    <uses-sdk android:minSdkVersion="8"/>
-
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -37,8 +35,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".Tutorial3Activity"
-            android:screenOrientation="landscape"
-            android:configChanges="keyboardHidden|orientation">
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
